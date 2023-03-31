@@ -1,0 +1,35 @@
+
+body{
+
+    background: #1E90FF;
+    color: black;
+
+    padding: 2.4em 4em;
+}
+
+.pricipal-pagina{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+.red{
+    text-transform: uppercase;
+    margin-left: 30%;
+
+}
+.cambiar{
+
+    margin: auto;
+    margin-left: 33%;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.parrafo3{
+
+    font-size: 19px;
+    margin-bottom: 5%;
+
+}

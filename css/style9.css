@@ -1,0 +1,46 @@
+*{
+    background: #1E90FF;
+    color: black;
+    margin-bottom: 30px;
+    
+}
+
+.real{
+
+
+    margin-left: 40%;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.prensa{
+    margin-left: 30%;
+    height: 15em;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+.led{
+
+  text-align: center;
+
+}
+.led-center{
+    margin-bottom: 2%;
+    
+}
+
+.epa{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+
+.parrafo4{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
