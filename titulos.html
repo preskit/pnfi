@@ -4,43 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style6.css">
-    <link rel="stylesheet" href="css/style5.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <title>Filosofía</title>
 </head>
-<header>
-
-    <span><img src="img/imagen2.PNG" class="img"></span>
-    <span><img src="img/imagen2.PNG" class="img-derecha"></span>
-
-    <div class="letras">
-        <div class="her">Universidad Politecnica Territorial del Estado Lara "Andres Eloy Blanco"</div>
+<header class="header">
+  <div class="child-header">
+    <div class="box-logo">
+      <a href="" class="link-logo">Programa Nacional de Formación en Informática</a>
     </div>
-    <div class="container-menu">
-        <div class="menu">
-            <nav>
-                <ul>
-
-                    <li><a href="index.html" id="seleccion"></a>
-
-                    </li>
-                    <li><a href="">PNFI</a>
-                        <ul>
-                            <li><a href="fundamentacion.html"> Fundamentación</a></li>
-                            <li><a href="filosfia.html"> Misión-Visión-Objetivos</a></li>
-                            <li><a href="universidades.html"> Universidades</a></li>
-                            <li><a href="curricular.html"> Diseño Curricular</a></li>
-                            <li><a href="titulos.html"> Títulos y certificaciones</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="index9.html">Noticias</a></li>
-                    <li><a href="#">Contactanos</a></li>
-                    <li><a href="#"> Galeria </a></li>
-                    <li><a href="index10.html">Quienes somos</a></li>
-                </ul>       
-            </nav>
-        </div> 
-    </div>  
+    
+    <nav class="box-menu-navegacion" id="menu-navegacion">
+      <ul class="menu-navegacion">
+        <li class="item-menu">
+          <a href="index.html" class="item-menu-link">Inicio</a>
+        </li>        
+        <li class="item-menu item-menu-sub-menu">
+          <a href="#" class="item-menu-link">PNFI</a>
+          <i class="fas fa-angle-down " id="angle-view-sub-menu"></i>
+          
+          <ul class="sub-menu" id="sub-menu">
+            <li class="item-menu">
+              <a href="reseña.html" class="item-menu-link">Reseña Histórica</a>
+            </li>
+            <li class="item-menu">
+              <a href="fundamentacion.html" class="item-menu-link">Fundamentación</a>
+            </li>
+            <li class="item-menu">
+              <a href="filosfia.html" class="item-menu-link">Misión-Visión-Objetivos</a>
+            </li>
+             <li class="item-menu">
+              <a href="universidades.html" class="item-menu-link">Universidades</a>
+            </li>
+            <li class="item-menu">
+              <a href="curricular.html" class="item-menu-link">Diseño Curricular</a>
+            </li>
+            <li class="item-menu">
+              <a href="titulos.html" class="item-menu-link">Títulos y certificaciones</a>
+            </li>
+          </ul>
+        </li>
+        <li class="item-menu">
+          <a href="noticias.html" class="item-menu-link">Noticias</a>
+        </li>
+        <li class="item-menu">
+          <a href="contactanos.html" class="item-menu-link">Contactanos</a>
+        </li>    
+        <li class="item-menu">
+          <a href="galeria.html" class="item-menu-link">Galeria</a>
+        </li>
+      </ul>
+    </nav>
+  
+    <button class="btn-pnfi" id="btn-pnfi">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  
+  </div>
 </header>
 <body>
     <div class="info-software"> 
@@ -90,8 +112,8 @@
         </ul>
 
     </div>
-    
-
-    
 </body>
+<script src="js.js"></script>
+<script src="jquery/jquery.js"></script>
+<script src="jquery/jquery.min.js"></script>
 </html>
